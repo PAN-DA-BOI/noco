@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NOCOM</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .ellipsis-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+		.picture{
+			border-radius: 50%;
+			height: 200px;
+			width: 200px;
+			object-fit: scale-down;
+		}
+		.flex-container {
+		  display: flex;
+		  flex-wrap: nowrap;
+		  background-color: Black;
+		}
+		.flex-container > div {
+		  background-color: #404040;
+		  width: 300px;
+		  margin: 10px;
+		  text-align: center;
+		  line-height: 75px;
+		  font-size: 30px;
+		}
+		a{
+			font-color: #8c8c8c;
+		}
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid center-content">
+        <button class="btn btn-secondary ellipsis-button" type="button" id="ellipsisButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="True">
+            <i class="fas fa-ellipsis-h"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="ellipsisButton">
+			<a class="dropdown-item" href="./index.html">HOME</a>
+            <a class="dropdown-item" href="./messanger.html">MESSANGER</a>
+            <a class="dropdown-item" href="./mischief.html">Mischief King</a>
+            <a class="dropdown-item" href="./kapono.html">King Kapono</a>
+			<a class="dropdown-item" href="./short.html">$hortKing</a>
+        </div>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Goofy_fun_monke.png" alt="monke" class="picture">
+        <p class="mt-3">NOCOM</p>
+		<p>just monke-ing around</p>
+		</div>
+		<center>
+		<div class="flex-container">
+		  <div><a href="./messanger.html">MESSANGER</a></div>
+		  <div><a href="./mischief.html">Mischief King</a></div>
+		  <div><a href="./kapono.html">King Kapono</a></div>
+		  <div><a href="./short.html">$hortKing</a></div>
+		</div>
+		</center>
+
+    <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
